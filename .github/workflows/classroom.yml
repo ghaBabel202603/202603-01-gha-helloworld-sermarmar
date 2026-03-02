@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Hello World Text
         setup-command: ''
-        command: bash tests/run.sh
+        command: bash test/run.sh
         timeout: 10
         max-score: 10
     - name: Autograding Reporter
